@@ -1,7 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc8e54c-7f62-49e1-a671-099796d6f469" name="Default" comment="" />
+    <list default="true" id="abc8e54c-7f62-49e1-a671-099796d6f469" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Compiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Environment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Error/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Error/Runtime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Error/Syntax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/ExistsLoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/ExpressionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Escaper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Optimizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/Staging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Extension/StringLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/ExtensionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Loader/Array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Loader/Chain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Loader/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/LoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Markup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/AutoEscape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/BlockReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Body.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Do.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Embed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/AssignName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/And.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/BitwiseOr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/BitwiseXor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Concat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Div.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Equal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/FloorDiv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Greater.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/GreaterEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/In.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Less.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/LessEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Mod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Mul.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/NotEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/NotIn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Or.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Power.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Range.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Binary/Sub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/BlockReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Call.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Conditional.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Constant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Filter/Default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/GetAttr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/MethodCall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Parent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/TempName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Constant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Defined.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Divisibleby.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Even.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Null.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Odd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Test/Sameas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Unary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Unary/Neg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Unary/Not.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Expression/Unary/Pos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Flush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/For.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/ForLoop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/If.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Macro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Print.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/SandboxedPrint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Spaceless.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Node/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeOutputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeTraverser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeVisitor/Escaper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeVisitor/Optimizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeVisitor/SafeAnalysis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeVisitor/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/NodeVisitorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Sandbox/SecurityError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Sandbox/SecurityPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Sandbox/SecurityPolicyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/SimpleFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/SimpleFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/SimpleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Test/IntegrationTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Test/NodeTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/AutoEscape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Do.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Embed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Extends.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Flush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/For.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/From.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/If.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Macro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Spaceless.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParser/Use.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Twig/TokenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,22 +155,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/my.js">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/lib/db.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/admin/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-556" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -35,93 +185,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Product.php">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/tests/unit/scrollspy.js">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4321">
-              <caret line="508" column="53" lean-forward="true" selection-start-line="508" selection-start-column="53" selection-end-line="508" selection-end-column="53" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+        <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="61" lean-forward="true" selection-start-column="6" selection-end-line="5" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -135,31 +234,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/src/dropdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/menu.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/controllers/Product.php" />
         <option value="$PROJECT_DIR$/public/guestbook.php" />
         <option value="$PROJECT_DIR$/controllers/Admin.php" />
@@ -169,6 +252,12 @@
         <option value="$PROJECT_DIR$/public/login.php" />
         <option value="$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/tests/unit/scrollspy.js" />
         <option value="$PROJECT_DIR$/js/my.js" />
+        <option value="$PROJECT_DIR$/templates/index.tmpl" />
+        <option value="$PROJECT_DIR$/templates/menu.tmpl" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/lib/db.class.php" />
       </list>
     </option>
   </component>
@@ -181,6 +270,7 @@
     <option name="width" value="1350" />
     <option name="height" value="730" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -192,6 +282,11 @@
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +311,11 @@
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,8 +326,7 @@
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,9 +337,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Geekbrains\PHP\Proff\6\shop\lib" />
+      <recent name="D:\Geekbrains\PHP\Proff\6\shop\templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,19 +372,21 @@
       <updated>1527851668249</updated>
       <workItem from="1527851669589" duration="769000" />
       <workItem from="1551031703795" duration="3294000" />
+      <workItem from="1551068429035" duration="608000" />
+      <workItem from="1551113643004" duration="6381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4063000" />
+    <option name="totallyTimeSpent" value="11052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -288,9 +396,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="11" visible="true" weight="0.32981783" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32981783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,10 +410,76 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/controllers/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="133" selection-start-line="40" selection-start-column="133" selection-end-line="40" selection-end-column="133" />
+        <state relative-caret-position="816">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/tests/unit/scrollspy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8636">
+          <caret line="508" column="53" selection-start-line="508" selection-start-column="53" selection-end-line="508" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/src/dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ModelBasket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -321,173 +496,21 @@
     <entry file="file://$PROJECT_DIR$/controllers/Comment.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Basket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/ModelBasket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#3#9#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/promo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/orderEnd.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/order.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/reg.php">
+    <entry file="file://$PROJECT_DIR$/public/promo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
+        <state relative-caret-position="-306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/tests/unit/scrollspy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4321">
-          <caret line="508" column="53" lean-forward="true" selection-start-line="508" selection-start-column="53" selection-end-line="508" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap-4.1.1/js/src/dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/contact.php">
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -498,11 +521,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
+    <entry file="file://$PROJECT_DIR$/public/contact.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
+    <entry file="file://$PROJECT_DIR$/templates/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="61" lean-forward="true" selection-start-column="6" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
